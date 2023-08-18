@@ -1,0 +1,29 @@
+.panel > p {
+	text-align: left;
+	line-height: 25px;
+	margin-bottom: 15px;
+	color: var(--grayishBlue);
+}
+
+.accordion-btn {
+	background: transparent;
+	border: none;
+	border-top: 1px solid var(--grayishBlueBorder);
+	padding: 20px 0;
+	text-align: left;
+	font-size: 18px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.accordion-btn > img {
+	width: 18px;
+}
+
+.accordion-btn:hover,
+.accordion-btn:hover > span {
+	cursor: pointer;
+	color: var(--softRed);
+}

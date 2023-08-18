@@ -1,0 +1,7 @@
+export { default as Navbar } from './Navbar.vue'
+export { default as Banner } from './Banner.vue'
+export { default as Features } from './Features.vue'
+export { default as Extensions } from './Extensions.vue'
+export { default as FAQ } from './FAQ.vue'
+export { default as Contact } from './Contact.vue'
+export { default as Footer } from './Footer.vue'
